@@ -45,7 +45,7 @@ dotenv.config();
         hrend[0],
         hrend[1] / 1000000
       );
-      results.data.map((o) => console.log(o.data));
+      results.data.map((o) => console.log(o.data.name + "--" + o.data.price));
     } catch (error) {
       console.log("Unknow Error: ");
       console.log(error);
