@@ -13,7 +13,7 @@ dotenv.config();
 
     //create database
     try {
-      // CREATE DOCUMENT WITH DEFAULT ID CREATED.
+      // Update DOCUMENT WITH DEFAULT ID CREATED.
 
       const docRef = q.Ref(q.Collection("products"), "3999999");
       var result = await client.query(
